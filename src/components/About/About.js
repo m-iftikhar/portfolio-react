@@ -55,7 +55,7 @@ function About  () {
                 <div>
                     <h4 className='about__desc'>
                     As I explore myself further, I find my passion deeply rooted in solving complex problems, building scalable systems, and enhancing user experiences. Each project I take on pushes me to learn, adapt, and grow turning curiosity into impactful solutions.
-                    Currently I am working at Octaloop Technologies as Full Stack Developer.
+                    Currently I am working at 100localzpvt.ltd as Mern Stack Developer.
                     </h4>
                     <br/>
                   <div id='interest' >
