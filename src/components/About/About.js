@@ -115,7 +115,7 @@ function About  () {
       <h2 id='timeline'>MY <span className='about__name'>Experience</span> </h2>
 
       <VerticalTimeline lineColor={linecolor}>
-                 </VerticalTimelineElement>
+                
        <VerticalTimelineElement date='July 2025 - present'  icon={<SchoolIcon />} contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
