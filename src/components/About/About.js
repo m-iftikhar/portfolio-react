@@ -1,5 +1,5 @@
-import SchoolIcon from "@mui/icons-material/School";
-import StarRateIcon from "@mui/icons-material/StarRate";
+import SchoolIcon from "@material-ui/icons/School";
+import StarRateIcon from "@material-ui/icons/StarRate";
 import { ThemeContext } from '../../contexts/theme';
 import { useContext, useState, useEffect } from 'react';
 import { BiStar } from "react-icons/bi";
