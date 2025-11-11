@@ -115,6 +115,34 @@ function About  () {
       <h2 id='timeline'>MY <span className='about__name'>Experience</span> </h2>
 
       <VerticalTimeline lineColor={linecolor}>
+                 </VerticalTimelineElement>
+       <VerticalTimelineElement date='July 2025 - present'  icon={<SchoolIcon />} contentStyle={{
+              boxShadow: `var(--shadow)`,
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`
+            }}
+            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
+            iconStyle={{
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`
+            }}
+            >
+      
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+             100localzpvt.Ltd,
+            </h4>
+            <p data-aos="fade-right">
+           Currently working as a MERN Stack Developer at 100localzpvt.Ltd, building scalable and responsive web applications.
+           Developing and maintaining RESTful APIs and dynamic user interfaces using React, Node.js, Express, and MongoDB.
+           Collaborating with cross-functional teams to deliver high-performance, user-focused, and maintainable solutions.
+            </p>
+            
+
+        </VerticalTimelineElement>
 
 
       <VerticalTimelineElement date='December 2024 - July 2025'  icon={<SchoolIcon />} contentStyle={{
@@ -139,36 +167,6 @@ function About  () {
             <p data-aos="fade-right">
             Joined Octaloop Technologies as Full Stack Developer, where I Built end-to-end web applications using TypeScript, JavaScript, React, Next.js, Node.js, MongoDB, and PostgreSQL, ensuring seamless functionality and user experiences. Optimized APIs and error handling, cutting client-side issues by 25%. Collaborated with cross-functional teams, delivering projects on time while exceeding client expectations.
             </p>
-            
-
-        </VerticalTimelineElement>
-       <VerticalTimelineElement date='July 2025 - present'  icon={<SchoolIcon />} contentStyle={{
-              boxShadow: `var(--shadow)`,
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`
-            }}
-            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
-            iconStyle={{
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`
-            }}
-            >
-      
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-             Octaloop Technologies
-            </h4>
-            <p data-aos="fade-right">
-           Currently working as a MERN Stack Developer at 100local Pvt. Ltd., building scalable and responsive web applications.
-           Developing and maintaining RESTful APIs and dynamic user interfaces using React, Node.js, Express, and MongoDB.
-           Collaborating with cross-functional teams to deliver high-performance, user-focused, and maintainable solutions.
-            </p>
-            
-
-        </VerticalTimelineElement>
         
         
         <VerticalTimelineElement date='July 2024 - October 2024'  icon={<SchoolIcon />} contentStyle={{
